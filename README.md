@@ -2,7 +2,16 @@
 
 University laboratory works on cryptography.
 
-This repository contains practical assignments covering classical ciphers, stream ciphers, and related cryptanalysis techniques.
+This repository contains practical assignments covering classical ciphers, stream ciphers, block ciphers and related cryptanalysis techniques.
+
+## Structure
+
+| File | Description |
+|------|-------------|
+| `Lab1_Cryptography_Yusupov_A.ipynb` | Classical substitution ciphers (monoalphabetic, affine, polygraphic, Atbash) |
+| `Lab2_Vigenere_Shift_Yusupov_A.py` | Vigenère and Shift ciphers |
+| `Lab3_Krypography_Yusupov_A.ipynb` | LFSR, stream cipher cryptanalysis, Berlekamp-Massey |
+| `Lab4_Cryptography_Yusupov_A.ipynb` | Stream & block ciphers test vectors (RC4, ChaCha20, ChaCha20-Poly1305, DES) + avalanche effect |
 
 ## Topics
 
@@ -11,10 +20,8 @@ This repository contains practical assignments covering classical ciphers, strea
 - Stream cipher cryptanalysis
 - Berlekamp-Massey algorithm
 - Known-plaintext attacks
-
-## Structure
-
-Each laboratory work is stored in a separate notebook with corresponding explanations and results.
+- Modern stream/block ciphers validation (RFC test vectors)
+- Avalanche effect analysis
 
 ## Author
 
